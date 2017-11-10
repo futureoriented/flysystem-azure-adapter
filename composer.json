@@ -1,0 +1,21 @@
+{
+    "name": "futureoriented/flysystem-azure-adapter",
+    "description": "Another Flysystem adapter for Windows Azure",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wu Junchao",
+            "email": "zjuwujunchao@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "league/flysystem": "~1.0",
+        "microsoft/azure-storage": "^0.19.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FutureOriented\\FlysystemAzureAdapter\\": "src/"
+        }
+    }
+}
